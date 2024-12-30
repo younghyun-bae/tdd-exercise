@@ -14,6 +14,9 @@ npm install @types/jest
 // Wirting test code
 
 npm run test
+
+// Checking how much the written test codes cover actual implementation
+jest --coverage
 ```
 
 ### Calulator Testing

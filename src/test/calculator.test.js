@@ -37,6 +37,13 @@ describe('Calculator', () => {
     expect(cal.value).toBe(3);
   });
 
+  it('add should throw an error if value is greater than 100', () => {
+    // cal.add(101); not like this, do it inside of expect()
+    expect(() => {
+      cal.add(101);
+    }).toThrow('Value cannot be greater than 100');
+  });
+
   it('subtracts', () => {
     cal.subtract(1);
     expect(cal.value).toBe(-1);
