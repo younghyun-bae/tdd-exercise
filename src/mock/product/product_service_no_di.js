@@ -1,5 +1,6 @@
 const ProductClient = require('./product_client');
 class ProductService {
+  // brocken dependency injection rule - not to define dependency inside of class itself
   constructor() {
     this.productClient = new ProductClient();
   }
