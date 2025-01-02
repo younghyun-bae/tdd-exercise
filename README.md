@@ -1,6 +1,16 @@
 # TDD Exercise
 
-Test-driven development
+> Test-driven development
+
+- Write test code before writing the actual code. The process involves:
+
+  - _Requirements analysis and understanding → Design → TDD_.
+  - Start by writing a failing test, then write just enough code to make the test pass. Next, write another failing test, implement code to pass it, and repeat. Finally, refactor the code.
+
+- TDD improves code quality by encouraging development from the user’s perspective (focus on interfaces rather than implementation).
+- It ensures thorough development by checking all requirements and goals step by step.
+- Enhances the overall system design.
+- Helps developers stay focused throughout the process.
 
 ## Unit Test
 
@@ -92,3 +102,7 @@ Good coverage involves considering various conditions, not just focusing on one 
     - What happens when there are no values, a single value, multiple values, or an excessive number of values?
   - **Time**: Test how code handles relative, absolute, or simultaneous timing issues.
     - For example, how does it behave with out-of-order events, prolonged execution, or different local times?
+
+## STACK Implementation with TDD
+
+LIFO: Last In First Out
