@@ -1,4 +1,4 @@
-# TDD Exercise
+# 🧪 TDD Exercise
 
 > Test-driven development
 
@@ -106,3 +106,9 @@ Good coverage involves considering various conditions, not just focusing on one 
 ## STACK Implementation with TDD
 
 LIFO: Last In First Out
+
+## React - Component Test
+
+Docs: [React testing](https://reactjs.org/docs/testing.html), [jest](https://jestjs.io/), [react-testing-library](https://testing-library.com/docs/react-testing-library/intro/)
+
+## with Youtube Project
